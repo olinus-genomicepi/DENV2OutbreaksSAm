@@ -1,0 +1,102 @@
+{
+  "annotations": {
+    "DENV_gp1": {
+      "end": 10272,
+      "start": 96,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 10723,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {},
+  "color_options": {
+    "country": {
+      "color_map": [
+        [
+          "BRA",
+          "#0DAB0F"
+        ],
+        [
+          "GUF",
+          "#0BC7DA"
+        ],
+        [
+          "PER",
+          "#E47614"
+        ],
+        [
+          "SUR",
+          "#E414B8"
+        ],
+        [
+          "VEN",
+          "#E41414"
+        ]
+      ],
+      "key": "country",
+      "legendTitle": "Country",
+      "menuItem": "country",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "state": {
+      "key": "state",
+      "legendTitle": "State",
+      "menuItem": "state",
+      "type": "discrete"
+    }
+  },
+  "defaults": {
+    "colorBy": "state",
+    "geoResolution": "state",
+    "mapTriplicate": false
+  },
+  "filters": [
+    "country",
+    "state"
+  ],
+  "geo": {
+    "country": {
+      "BRA": {
+        "latitude": -14.235,
+        "longitude": -51.9253
+      },
+      "GUF": {
+        "latitude": 3.9339,
+        "longitude": -53.1258
+      },
+      "PER": {
+        "latitude": 9.19,
+        "longitude": -75.0152
+      },
+      "SUR": {
+        "latitude": 3.9193,
+        "longitude": -56.0278
+      },
+      "VEN": {
+        "latitude": 6.4238,
+        "longitude": -66.5897
+      }
+    }
+  },
+  "maintainer": [
+    "Olivia Nusbaum",
+    "https://github.com/olinus-genomicepi/DENV2OutbreaksSAm"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "DENV2 Outbreaks in South America",
+  "updated": "23 Mar 2020",
+  "virus_count": 54
+}
